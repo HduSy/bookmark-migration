@@ -1,0 +1,25 @@
+{
+  "name": "bookmark-migration",
+  "version": "1.0.0",
+  "description": "浏览器收藏夹迁移工具",
+  "main": "scripts/migrate-bookmarks.mjs",
+  "type": "module",
+  "scripts": {
+    "migrate": "node scripts/migrate-bookmarks.mjs"
+  },
+  "keywords": [
+    "bookmark",
+    "migration",
+    "chrome",
+    "edge",
+    "browser",
+    "tabbit",
+    "arc",
+    "brave"
+  ],
+  "author": "HduSy",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
